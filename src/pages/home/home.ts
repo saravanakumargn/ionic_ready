@@ -8,7 +8,11 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
+this.buildMap();
   }
 
+  buildMap() {
+    console.log('buildMap');
+    let val = "test";
+  }
 }
