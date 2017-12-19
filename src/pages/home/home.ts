@@ -17,5 +17,12 @@ this.buildMap();
     var test = function() {
       console.log('test');
     }
+    const arr = ['a', 'b', 'c'];
+    arr.forEach(function (element) {
+      console.log(element);
+    });
+  arr.forEach((element) => {
+    console.log(element);
+});
   }
 }
