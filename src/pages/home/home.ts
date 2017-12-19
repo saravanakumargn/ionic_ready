@@ -14,5 +14,8 @@ this.buildMap();
   buildMap() {
     console.log('buildMap');
     let val = "test";
+    var test = function() {
+      console.log('test');
+    }
   }
 }
