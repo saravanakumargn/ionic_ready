@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "start": "ionic serve --no-open --port 8080",
-    "build": "ionic-app-scripts build --sass ./config/sass.config.js",
+    "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:lint": "npm run lint"
