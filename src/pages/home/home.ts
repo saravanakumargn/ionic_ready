@@ -13,7 +13,8 @@ this.buildMap();
 
   buildMap() {
     console.log('buildMap');
-    let val = "test";
+    const val = "test";
+    console.log(val);
     var test = function() {
       console.log('test');
     }

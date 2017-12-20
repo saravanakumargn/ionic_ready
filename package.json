@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
+    "start": "ionic serve --no-open --port 8080",
+    "build": "ionic-app-scripts build --sass ./config/sass.config.js",
     "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:build": "ionic-app-scripts build"
   },
   "dependencies": {
     "@angular/common": "5.0.3",
