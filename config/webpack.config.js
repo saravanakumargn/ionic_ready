@@ -5,8 +5,6 @@ const useDefaultConfig = require('@ionic/app-scripts/config/webpack.config.js');
 
 const env = process.env.IONIC_ENV;
 
-console.log(env);
-
 if (env === 'prod' || env === 'dev' || env === 'qa') {
 
   useDefaultConfig[env].resolve.alias = {
